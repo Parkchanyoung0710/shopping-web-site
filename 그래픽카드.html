@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S쇼핑몰</title>
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!--Favicon-->
+<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+  </head>
+<body style="overflow-x: hidden">
+   <!--Header Start-->
+   <header>
+    <!-- ## Navbar Start ##-->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">S쇼핑몰</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">홈</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/전자제품.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                전자제품
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/컴퓨터.html">컴퓨터</a></li>
+                <li><a class="dropdown-item" href="/노트북.html">노트북</a></li>
+                <li><a class="dropdown-item" href="/그래픽카드.html">그래픽카드</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/마우스.html">마우스</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/키보드.html">키보드</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/모니터.html">모니터</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/login.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                로그인
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/login.html">로그인</a></li>
+                <li><a class="dropdown-item" href="/게시판/게시판.html">게시판</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">OO님 환영합니다.</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">검색</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- ## Navbar End ##-->
+</header>
+<!--Header End-->
+
+  <!--카드 시작-->
+  <main class="mt-3"> 
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-12">
+          <select class="form-select">
+            <option selected>정렬</option>
+            <option value="1">인기 상품순</option>
+            <option value="2">신상품순</option>
+            <option value="3">낮은 가격순</option>
+            <option value="4">높은 가격순</option>
+          </select>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="card" style="width: 18rem;">
+            <a href="/그래픽카드/그래픽1detail.html"><img src="http://img.danawa.com/prod_img/500000/144/463/img/13463144_1.jpg?shrink=500:500&_v=20220510164633" class="card-img-top"class="img-fluid" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">ZOTAC GAMING 지포스 RTX 3060 TWIN Edge OC D6 12GB LHR</h5>
+              <p class="card-text">
+                <span class="badge bg-dark">컴퓨터</span>
+                <span class="badge bg-dark">그래픽카드</span>
+                <span class="badge bg-dark">NVIDIA계열</span>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="/그래픽카드/그래픽1detail.html">
+
+                    <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+                  </a>
+              </div>
+              <small class="text-dark">550,660원</small>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="card" style="width: 18rem;">
+          <a href="/그래픽카드/그래픽2detail.html"><img src="http://img.danawa.com/prod_img/500000/437/986/img/16986437_1.jpg?shrink=500:500&_v=20220504155515" class="card-img-top"class="img-fluid" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">MSI 지포스 RTX 3080 게이밍 트리오 플러스 D6X 12GB 트라이프로져2 LHR</h5>
+            <p class="card-text">
+              <span class="badge bg-dark">컴퓨터</span>
+                <span class="badge bg-dark">그래픽카드</span>
+                <span class="badge bg-dark">NVIDIA계열</span>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <a href="/그래픽카드/그래픽2detail.html">
+
+                  <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+                </a>
+            </div>
+            <small class="text-dark">1,199,000원</small>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6">
+      <div class="card" style="width: 18rem;">
+        <a href="/그래픽카드/그래픽3detail.html"><img src="http://img.danawa.com/prod_img/500000/889/461/img/14461889_1.jpg?shrink=500:500&_v=20220517143322" class="card-img-top"class="img-fluid" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">MSI 지포스 RTX 3070 Ti 슈프림 X D6X 8GB 트라이프로져2S)</h5>
+          <p class="card-text">
+            <span class="badge bg-dark">컴퓨터</span>
+                <span class="badge bg-dark">그래픽카드</span>
+                <span class="badge bg-dark">NVIDIA계열</span>
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="/그래픽카드/그래픽3detail.html">
+
+                <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+              </a>
+          </div>
+          <small class="text-dark">1,036,890원</small>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-lg-4 col-md-6">
+    <div class="card" style="width: 18rem;">
+      <a href="/그래픽카드/그래픽4detail.html"><img src="http://img.danawa.com/prod_img/500000/714/453/img/14453714_1.jpg?shrink=500:500&_v=20210614170709" class="card-img-top"class="img-fluid" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">GIGABYTE 지포스 RTX 3060 EAGLE OC V2 D6 12GB 피씨디렉트</h5>
+        <p class="card-text">
+          <span class="badge bg-dark">컴퓨터</span>
+                <span class="badge bg-dark">그래픽카드</span>
+                <span class="badge bg-dark">NVIDIA계열</span>
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <a href="/그래픽카드/그래픽4detail.html">
+
+              <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+            </a>
+        </div>
+        <small class="text-dark">525,380원</small>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-xl-3 col-lg-4 col-md-6">
+  <div class="card" style="width: 18rem;">
+    <a href="/그래픽카드/그래픽5detail.html"><img src="http://img.danawa.com/prod_img/500000/041/435/img/15435041_1.jpg?shrink=500:500&_v=20220518092936" class="card-img-top"class="img-fluid" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">MSI 라데온 RX 6600 메크 2X D6 <BR>8GB</h5>
+      <p class="card-text">
+        <span class="badge bg-dark">컴퓨터</span>
+              <span class="badge bg-dark">그래픽카드</span>
+              <span class="badge bg-dark">AMD계열</span>
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a href="/그래픽카드/그래픽5detail.html">
+
+            <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+          </a>
+      </div>
+      <small class="text-dark">369,600원</small>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-4 col-md-6">
+  <div class="card" style="width: 18rem;">
+    <a href="/그래픽카드/그래픽6detail.html"><img src="http://img.danawa.com/prod_img/500000/785/019/img/17019785_1.jpg?shrink=500:500&_v=20220513170934" class="card-img-top"class="img-fluid" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">PowerColor 라데온 RX 6650 XT Red Devil D6 <br>8GB </h5>
+      <p class="card-text">
+        <span class="badge bg-dark">컴퓨터</span>
+              <span class="badge bg-dark">그래픽카드</span>
+              <span class="badge bg-dark">AMD계열</span>
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a href="/그래픽카드/그래픽6detail.html">
+
+            <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+          </a>
+      </div>
+      <small class="text-dark">651,790원</small>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-4 col-md-6">
+  <div class="card" style="width: 18rem;">
+    <a href="/그래픽카드/그래픽7detail.html"><img src="http://img.danawa.com/prod_img/500000/666/024/img/17024666_1.jpg?shrink=500:500&_v=20220511140043" class="card-img-top"class="img-fluid" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">MSI 라데온 RX 6950 XT 게이밍 X 트리오 D6 16GB 트라이프로져2</h5>
+      <p class="card-text">
+        <span class="badge bg-dark">컴퓨터</span>
+              <span class="badge bg-dark">그래픽카드</span>
+              <span class="badge bg-dark">AMD계열</span>
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a href="/그래픽카드/그래픽7detail.html">
+
+            <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+          </a>
+      </div>
+      <small class="text-dark">1,608,630원</small>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-4 col-md-6">
+  <div class="card" style="width: 18rem;">
+    <a href="/그래픽카드/그래픽8detail.html"><img src="http://img.danawa.com/prod_img/500000/083/218/img/13218083_1.jpg?shrink=500:500&_v=20210927180708" class="card-img-top"class="img-fluid" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">ASUS TUF Gaming 라데온 RX 6900 XT O16G OC D6 16GB</h5>
+      <p class="card-text">
+        <span class="badge bg-dark">컴퓨터</span>
+              <span class="badge bg-dark">그래픽카드</span>
+              <span class="badge bg-dark">AMD계열</span>
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a href="/그래픽카드/그래픽8detail.html">
+
+            <button type="button" class="btn btn-sm btn-outline-secondary">장바구니</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">구매하기</button>
+          </a>
+      </div>
+      <small class="text-dark">1,207,800원</small>
+      </div>
+  </div>
+</div>
+</div>
+
+    </div>
+  </div>
+  </main>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center" style="margin-top: 30px;">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+      <li class="page-item"><a class="page-link" href="/컴퓨터.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="/노트북.html">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="/그래픽카드.html">4</a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+  <!--FOOTER START-->
+  <div class="w3hubs-footer">
+    <div class="w3hubs-icon">
+    <ul>
+    <li><a href="https://www.facebook.com/" target="black"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.google.co.kr/" target="black"><i class="fa fa-google-plus"></i></a></li>
+    <li><a href="https://twitter.com/" target="black"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/" target="black"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com/" target="black"><i class="fa fa-youtube-play"></i></a></li>
+    </ul>
+    </div>
+    <div class="w3hubs-nav">
+    <ul>
+    <li><a href="index.html">홈</a></li>
+    <li><a href="/전자제품.html">회사소개</a></li>
+    <li><a href="/게시판/게시판.html">FAQ</a></li>
+    <li><a href="#">광고문의</a></li>
+    <li class="p1"><a href="#">연락처</a></li>
+    </ul>
+    </div>
+    <div class="w3hubs-nav1">
+    <ul>
+    <li><a href="#">이용약관</a></li>
+    <li><a href="#">운영정책</a></li>
+    <li><a href="#">개인정보처리방침</a></li>
+    <li><a href="#">청소년 보호정책</a></li>
+    </ul>
+    
+    </div>
+    <div class="w3hubs-nav2">
+    <ul>
+    <li><a href="#" title="To Top"><i class="fa fa-chevron-down"></i></a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="footer-end">
+      <p><a href="/index.html" target="_blank" data-clk="">ⓒ S쇼핑몰 Corp.</a></p>
+    </div>
+  <!--FOOTER 끝-->
+ 
+  
+ 
+  
+  
+      
+    <link href="main.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
